@@ -104,6 +104,49 @@ hr {
 	transition: 0.3s ease;
 }
 
+#bar {
+	font-size: 1.3rem;
+	padding: 7px;
+	cursor: pointer;
+	font-weight: 500;
+	transition: 0.3s ease;
+	color: black;
+}
+
+#bar:hover,
+#bar:active {
+	color: #fff;
+
+}
+
+@media only screen and (max-width:991px)
+{
+	body>nav>div>button:hover,
+	body>nav>div>button:focus {
+	background-color: #bcecfc;
+	}
+
+	body>nav>div>button:hover #bar,
+	body>nav>div>button:focus #bar {
+	background-color: #fff;
+	}
+
+	#navbarsupportedcontent > ul{
+		margin: 1rem;
+		justify-content: flex-end;
+		align-items: flex-end;
+		text-align: right;
+	}
+}
+
+/* mobile nav */
+
+.navbar-light .navbar-toggler {
+	border: none;
+	outline: none;
+
+}
+
 /* Banner styling */
 
 #banner {
@@ -132,6 +175,7 @@ hr {
 #banner button {
 	background-color: #aab6c6;
 }
+
 
 /* Home section styling */
 
