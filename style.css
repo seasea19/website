@@ -268,7 +268,6 @@ hr {
 }
 
 /* Product section */
-
 .product {
 	cursor: pointer;
 	margin-bottom: 2rem;
@@ -314,8 +313,7 @@ hr {
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-twitter:hover,
-.fa-linkedin:hover,
-.fa-github:hover {
+.fa-pinterest:hover {
 	color: #aab6c6;
 }
 
@@ -350,5 +348,6 @@ hr {
 #footer span {
 	color: #000000;
 	font-weight: 700;
-	font-size: 1.2rem;
+	text-align: center;
+	font-size: 0.80rem;
 }
